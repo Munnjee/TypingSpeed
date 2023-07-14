@@ -122,7 +122,7 @@ function initTimer() {
 function resetGame() {
   // Call random paragraph selection and reset element values to default
   randomParagraph();
-  inputField.value = "";
+  inputField.val("");
   clearInterval(timer);
   timeLeft = maxTime + 1,
   initTimer();
